@@ -1,0 +1,22 @@
+.container-custom {
+    max-width: 800px;
+    margin: 0 auto;
+    border: 0;
+}
+.container-custom .nav-link {
+    background: transparent !important;
+    border: none;
+    border-bottom: 3px solid transparent;
+    outline: none !important;
+    box-shadow: none !important; /* Removes the focus ring/glow */
+}
+
+.container-custom .nav-link:focus, 
+.container-custom .nav-link:active {
+    background: transparent !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+.container-custom .nav-link.active {
+    border-bottom: 3px solid #198754;
+}
